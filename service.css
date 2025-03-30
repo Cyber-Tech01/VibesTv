@@ -1,0 +1,161 @@
+.service-section {
+  display: flex ;
+  flex-direction: column;
+  gap:30px;
+}
+
+.post-service {
+  transition: var(--transition);
+}
+
+.post-service:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-medium);
+  border-radius: var(--border-radius);
+}
+
+.image-con {
+  width:100%;
+  height: auto;
+  position: relative;
+}
+
+
+.post-badge-post {
+  position: absolute;
+  top:10px;
+  right:10px;
+  font-weight: bold;
+  padding:4px 8px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  text-transform:uppercase ;
+  letter-spacing: 1px;
+  color:white;
+}
+
+.ads {
+  background-color:red;
+}
+
+.graphics {
+  background-color: orange;
+}
+
+.post-service img {
+  width: 100%;
+}
+
+.btn-service {
+ display:inline-block;
+ color:white;
+ background-color: var(--accent-color);
+ letter-spacing: 1px;
+ font-weight: bold;
+ font-size: 0.8rem;
+ transition: var(--transition);
+ padding:6px 12px;
+ border-radius: 20px;
+}
+
+.btn-service:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+.know-more {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.know-more h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 29px;
+  color:#333;
+  position: relative;
+}
+
+.know-more h2::after {
+  position: absolute;
+  content:  "";
+  background-color: var(--accent-color);
+  width:80%;
+  height: 2px;
+  bottom:0;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+
+.trust-container {
+  margin-bottom:50px;
+  display: flex ;
+  flex-direction: column;
+  gap:20px;
+}
+
+
+.trust-each {
+  background: white;
+  padding:25px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: var(--shadow-medium);
+  transition: var(--transition);
+}
+
+.trust-each:hover {
+  transform: translateY(-10px);
+}
+
+.trust-each i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ee4d2d;
+}
+
+.trust-each h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.trust-each p {
+  line-height: 1.6;
+  color :var(--text-color);
+}
+
+.service-testimonial {
+  background: #ee4d2d;
+  padding:20px;
+  color: white;
+  border-radius: 12px;
+  margin:40px auto;
+  width:90%;
+}
+
+.testimonial-content {
+  margin:0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.testimonial-content i {
+  font-size: 30px;
+  float: left;
+}
+
+.testimonial-content p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom:20px;
+  line-height: 1.6;
+  clear: both;
+}
+
+.testimonial-content h4 {
+  font-style: italic;
+  font-weight: 500;
+}
